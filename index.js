@@ -36,7 +36,6 @@ var server = http.createServer(function(req,res){
 });
 
 // Start the server
-//server.listen(process.env.PORT,function(){
-server.listen(5432,function(){
+server.listen(process.env.PORT,function(){
   console.log('The server is up and running now');
 });
